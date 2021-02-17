@@ -1,0 +1,174 @@
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body{
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+ul {
+  list-style-type: none; /*removes bullets*/
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  font-family: arial, sans-serif;
+}
+
+/*****************************Upper Part*************************************/
+.navbar {
+  overflow: auto;
+
+}
+
+.leftnav {
+  float: left;
+  font-size: 14px;
+  position: relative;
+  top: 5px;
+
+}
+
+.rightnav {
+  float: right;
+  font-size: 13px;
+  position: relative;
+  bottom: 5px;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  padding: 8px 25px;
+  border-radius: 8%;
+  text-decoration: none;
+  color: white;
+  background-color: #1a73e8;
+  border: 1px solid transparent;
+}
+
+a.button:hover {
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1)
+}
+
+
+.googlelogo {
+  display: block;
+  margin: auto;
+  height: 92px;
+  position: relative;
+  top: 30px;
+}
+
+.searchbar {
+  position: relative;
+  display: block;
+  margin: 20px auto;
+  width: 580px;
+  height: 40px;
+  border: 1px solid #bac6d1;
+  border-radius: 20px;
+  top: 30px;
+}
+
+.searchbar:hover {
+  box-shadow: 0 0 2px 1px #bac6d1;
+}
+
+.search {
+  height: 35px;
+  position: relative;
+  left: 30.5%;
+  bottom: 30px;
+
+}
+.voice {
+  height: 35px;
+  position: fixed;
+  left: 67%;
+  top: 31.5%;
+}
+
+.buttons {
+  text-align: center;
+
+}
+
+.button1 {
+  padding: 12px 15px;
+  border: none;
+  margin-right: 3px;
+  background-color: #f8f9fa;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+}
+
+.button2 {
+  padding: 12px 15px;
+  border: none;
+  margin-left: 3px;
+  background-color: #f8f9fa;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+
+}
+/*************************Bottom part****************************************/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  color: grey;
+}
+
+.footerleft {
+  float: left;
+  margin-left: 3px;
+  padding-bottom: 5px;
+}
+
+.footerright {
+  float: right;
+  margin-right: 3px;
+  padding-bottom: 5px;
+}
+/********************************Id attributes*********************************/
+
+#googleapps {
+  position: relative;
+  top: 6px;
+  width: 25px;
+  height: 25px;
+}
+
+#googlelogo {
+  height: 92px;
+  display: block;
+  margin: auto;
+}
