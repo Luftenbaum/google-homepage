@@ -1,1 +1,1 @@
-The purpose of this project is to create an identical copy of the Goggle homepage.
+The purpose of this project is to create the front page of Google for the Odin Project.
